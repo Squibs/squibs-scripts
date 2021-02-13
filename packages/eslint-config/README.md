@@ -3,7 +3,7 @@
 My ESLint configuration for JavaScript projects.
 
 
-This was made with assumption Visual Studio Code with the ESLint extension is being used.
+This was made with the assumption that Visual Studio Code with the ESLint extension are being used.
 
 ## Installation
 
