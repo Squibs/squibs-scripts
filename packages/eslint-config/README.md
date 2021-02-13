@@ -5,47 +5,45 @@ My ESLint configuration for JavaScript projects.
 
 This was made with assumption Visual Studio Code with the ESLint extension is being used.
 
-# Installation
+## Installation
+
+### 1) Install
+
+**npm:**
+
+`npm i -D @squibs/eslint-config`
+
+**yarn:**
+
+`yarn add -D @squibs/eslint-config`
+
+### 2) Install ESLint plugins (if necessary)
 
 **npm:**
 
 Manually install the listed versions of packages, alongside this package, from the following command:
 
-```
-npm install -D @squibs/eslint-config
-npm info "@squibs/eslint-config" peerDependencies
-```
+`npm info "@squibs/eslint-config" peerDependencies`
 
 or have everything automatically installed using this command:
 
 `npx install-peerdeps -D @squibs/eslint-config`
 
-With npm version >= 7.0.0:
-
-`npm install -D @squibs/eslint-config`
-
-Works as it automatically installs peer dependencies.
+_<font size="2">With `npm version >= 7.0.0` normal package installation: `npm i -D @squibs/eslint-config`, the above is not needed, as it automatically installs peer dependencies.</font>_
 
 **yarn:**
 
 Manually install the listed versions of packages, alongside this package, from the same npm command:
 
-```
-yarn add -D @squibs/eslint-config
-npm info "@squibs/eslint-config" peerDependencies
-```
+`npm info "@squibs/eslint-config" peerDependencies`
 
 or follow up on the unmet peer dependency warnings which come from a normal yarn package installation:
 
 `yarn add -D @squibs/eslint-config`
 
-If a `yarn.lock` file already exists for your project:
+_<font size="2">If a `yarn.lock` file already exists for your project: `npx install-peerdeps -D @squibs/eslint-config` can be used to automatically install the peer dependencies, instead, as it will detect that you are already using yarn.</font>_
 
-`npx install-peerdeps -D @squibs/eslint-config`
-
-Can be used to automatically install the peer dependencies, instead, as it will detect that you are already using yarn.
-
-**Optional:**
+### 3) Optional:
 
 Include [my Prettier configuration](https://github.com/Squibs/squibs-scripts/tree/main/packages/prettier-config) along side this.
 
