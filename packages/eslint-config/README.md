@@ -9,11 +9,14 @@ This was made with assumption Visual Studio Code with the ESLint extension is be
 
 **npm:**
 
-Manually install the listed versions of packages from the following command:
+Manually install the listed versions of packages, alongside this package, from the following command:
 
-`npm info "@squibs/eslint-config" peerDependencies`
+```
+npm install -D @squibs/eslint-config
+npm info "@squibs/eslint-config" peerDependencies
+```
 
-or have them automatically installed using this command:
+or have everything automatically installed using this command:
 
 `npx install-peerdeps -D @squibs/eslint-config`
 
@@ -25,9 +28,12 @@ Works as it automatically installs peer dependencies.
 
 **yarn:**
 
-Manually install the listed versions of packages from the same npm command:
+Manually install the listed versions of packages, alongside this package, from the same npm command:
 
-`npm info "@squibs/eslint-config" peerDependencies`
+```
+yarn add -D @squibs/eslint-config
+npm info "@squibs/eslint-config" peerDependencies
+```
 
 or follow up on the unmet peer dependency warnings which come from a normal yarn package installation:
 
@@ -38,6 +44,10 @@ If a `yarn.lock` file already exists for your project:
 `npx install-peerdeps -D @squibs/eslint-config`
 
 Can be used to automatically install the peer dependencies, instead, as it will detect that you are already using yarn.
+
+**Optional:**
+
+Include [my Prettier configuration](https://github.com/Squibs/squibs-scripts/tree/main/packages/prettier-config) along side this.
 
 ## Usage
 
