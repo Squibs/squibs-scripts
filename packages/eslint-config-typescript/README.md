@@ -1,0 +1,1 @@
+# @squibs/eslint-config-typescript
