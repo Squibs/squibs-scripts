@@ -1,0 +1,26 @@
+{
+  "name": "@squibs/prettier-config",
+  "version": "1.0.0",
+  "private": false,
+  "description": "My prettier configuration.",
+  "keywords": [
+    "prettier",
+    "prettierrc",
+    "prettierignore"
+  ],
+  "homepage": "https://github.com/Squibs/squibs-scripts",
+  "bugs": {
+    "url": "https://github.com/Squibs/squibs-scripts/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Squibs/squibs-scripts",
+    "directory": "packages/prettier-config"
+  },
+  "license": "ISC",
+  "author": "Zachary Holman",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
