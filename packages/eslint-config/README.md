@@ -2,6 +2,9 @@
 
 My ESLint configuration for JavaScript projects.
 
+
+This was made with assumption Visual Studio Code with the ESLint extension is being used.
+
 # Installation
 
 **npm:**
