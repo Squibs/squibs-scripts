@@ -1,6 +1,6 @@
 {
   "name": "@squibs/editor-config",
-  "version": "1.0.0-alpha.3",
+  "version": "1.0.0-alpha.4",
   "private": false,
   "description": "My editor configuration.",
   "keywords": [
@@ -17,6 +17,7 @@
   },
   "license": "ISC",
   "author": "Zachary Holman",
+  "main": "index.js",
   "scripts": {
     "postinstall": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"

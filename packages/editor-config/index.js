@@ -15,4 +15,4 @@ var filesToCopy = [".editorconfig"];
 var userPath = "../../../";
 
 // Moving files to user's local directory
-gentlyCopy(filesToCopy, userPath);
+gentlyCopy(filesToCopy, userPath, { overwrite: true });
