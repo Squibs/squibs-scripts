@@ -1,6 +1,6 @@
 {
   "name": "@squibs/editor-config",
-  "version": "1.0.0-alpha.4",
+  "version": "1.0.0",
   "private": false,
   "description": "My editor configuration.",
   "keywords": [
