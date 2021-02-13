@@ -17,6 +17,12 @@ or have them automatically installed using this command:
 
 `npx install-peerdeps -D @squibs/eslint-config`
 
+With npm version >= 7.0.0:
+
+`npm install -D @squibs/eslint-config`
+
+Works as it automatically installs peer dependencies.
+
 **yarn:**
 
 Manually install the listed versions of packages from the same npm command:
@@ -31,7 +37,7 @@ If a `yarn.lock` file already exists for your project:
 
 `npx install-peerdeps -D @squibs/eslint-config`
 
-can be used to automatically install the peer dependencies, instead, as it will detect that you are already using yarn.
+Can be used to automatically install the peer dependencies, instead, as it will detect that you are already using yarn.
 
 ## Usage
 
