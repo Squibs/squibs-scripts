@@ -1,6 +1,6 @@
 {
   "name": "@squibs/editor-config",
-  "version": "1.0.0-alpha.0",
+  "version": "1.0.0-alpha.1",
   "private": false,
   "description": "My editor configuration.",
   "keywords": [
@@ -18,7 +18,7 @@
   "license": "ISC",
   "author": "Zachary Holman",
   "scripts": {
-    "postinstall": "cp .editorconfig $INIT_CWD",
+    "postinstall": "cp .editorconfig",
     "test": "echo \"Error: no test specified\" && exit 1"
   }
 }
