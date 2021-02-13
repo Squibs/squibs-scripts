@@ -1,0 +1,26 @@
+{
+  "name": "@squibs/eslint-config",
+  "version": "1.0.0",
+  "private": false,
+  "description": "My ESLint configuration for JavaScript projects.",
+  "keywords": [
+    "eslint",
+    "eslintrc",
+    "eslintconfig",
+    "eslintignore"
+  ],
+  "homepage": "https://github.com/Squibs/squibs-scripts",
+  "bugs": {
+    "url": "https://github.com/Squibs/squibs-scripts/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Squibs/squibs-scripts",
+    "directory": "packages/eslint-config"
+  },
+  "license": "ISC",
+  "author": "Zachary Holman",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
