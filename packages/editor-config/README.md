@@ -1,3 +1,3 @@
 # @squibs/editor-config
 
-My [EditorConfig](https://editorconfig.org/).
+My EditorConfig.
