@@ -18,6 +18,7 @@
   "license": "ISC",
   "author": "Zachary Holman",
   "scripts": {
+    "postinstall": "cp .editorconfig $INIT_CWD",
     "test": "echo \"Error: no test specified\" && exit 1"
   }
 }
