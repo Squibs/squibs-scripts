@@ -1,0 +1,23 @@
+{
+  "name": "@squibs/editor-config",
+  "version": "1.0.0",
+  "private": false,
+  "description": "My editor configuration.",
+  "keywords": [
+    "editorconfig"
+  ],
+  "homepage": "https://github.com/Squibs/squibs-scripts",
+  "bugs": {
+    "url": "https://github.com/Squibs/squibs-scripts/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Squibs/squibs-scripts",
+    "directory": "packages/editor-config"
+  },
+  "license": "ISC",
+  "author": "Zachary Holman",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
