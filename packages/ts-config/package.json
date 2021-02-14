@@ -1,0 +1,24 @@
+{
+  "name": "@squibs/ts-config",
+  "version": "1.0.0",
+  "private": false,
+  "description": "My TypeScript configuration.",
+  "keywords": [
+    "typescript",
+    "tsconfig"
+  ],
+  "homepage": "https://github.com/Squibs/squibs-scripts",
+  "bugs": {
+    "url": "https://github.com/Squibs/squibs-scripts/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Squibs/squibs-scripts",
+    "directory": "packages/ts-config"
+  },
+  "license": "ISC",
+  "author": "Zachary Holman",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
