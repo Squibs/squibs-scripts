@@ -1,6 +1,6 @@
 {
   "name": "@squibs/eslint-config-typescript-react",
-  "version": "1.0.0-alpha.0",
+  "version": "1.0.0",
   "private": false,
   "description": "My ESLint configuration for TypeScript React projects.",
   "keywords": [
