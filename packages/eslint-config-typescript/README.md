@@ -44,9 +44,9 @@ _<font size="2">If a `yarn.lock` file already exists for your project: `npx inst
 
 ### 3) Optional:
 
-Include [my Prettier configuration](https://github.com/Squibs/squibs-scripts/tree/main/packages/prettier-config) along side this.
+Include [my Prettier configuration](https://github.com/Squibs/squibs-scripts/tree/main/packages/prettier-config) alongside this.
 
-Include [my Typescript configuration](https://github.com/Squibs/squibs-scripts/tree/main/packages/eslint-config-typescript) along side this.
+Include [my TypeScript configuration](https://github.com/Squibs/squibs-scripts/tree/main/packages/eslint-config-typescript) alongside this.
 
 ## Usage
 
