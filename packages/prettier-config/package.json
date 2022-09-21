@@ -1,6 +1,6 @@
 {
   "name": "@squibs/prettier-config",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "private": false,
   "description": "My prettier configuration.",
   "keywords": [
@@ -22,5 +22,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "gently-copy": "^3.2.0"
   }
 }
