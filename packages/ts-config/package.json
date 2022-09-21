@@ -1,6 +1,6 @@
 {
   "name": "@squibs/ts-config",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "private": false,
   "description": "My TypeScript configurations.",
   "keywords": [
@@ -20,6 +20,10 @@
   "author": "Zachary Holman",
   "main": "tsconfig.json",
   "scripts": {
+    "postinstall": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "gently-copy": "^3.2.0"
   }
 }
