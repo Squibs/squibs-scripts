@@ -2,6 +2,10 @@
 
 My Prettier configuration that I use for most of my projects.
 
+**If you have a .prettierignore file already at your project root, it will be overwritten when this package is installed.**
+
+A `postinstall` script from npm is used along with [gently-copy](https://www.npmjs.com/package/gently-copy) to move the `.prettierignore` file to your project root.
+
 ## Installation
 
 **npm:**
