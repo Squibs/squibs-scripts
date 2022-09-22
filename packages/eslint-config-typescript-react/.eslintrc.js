@@ -6,12 +6,12 @@ var config = {
     node: true,
   },
   extends: [
+    'airbnb',
     'airbnb-typescript',
     'airbnb/hooks',
     'plugin:@typescript-eslint/recommended',
+    'prettier',
     'plugin:prettier/recommended',
-    'prettier/react',
-    'prettier/@typescript-eslint',
   ],
   rules: {
     'react/state-in-constructor': 'off',
